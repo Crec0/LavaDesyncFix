@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "lava-desync-fix-thing",
+  "version": "${version}",
+  "name": "Lava Desync Fix Thing",
+  "description": "Fixes MC-246465",
+  "authors": [
+    "Crec0"
+  ],
+  "contact": {
+    "repo": "https://github.com/Crec0/LavaDesyncFix.git"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "lava-desync-fix-thing.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "*"
+  }
+}
