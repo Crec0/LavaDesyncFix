@@ -1,0 +1,1 @@
+Attempts to fix MC-246465
